@@ -6,7 +6,7 @@ LABEL maintainer="https://github.com/bdevloed"
 RUN apt-get -qq update && \
 	`# Install dependencies:` \
 	apt-get -qqy --no-install-recommends install gnupg && \
-  curl -fsSL https://deb.nodesource.com/setup_8.x | bash - && \
+	curl -fsSL https://deb.nodesource.com/setup_8.x | bash - && \
 	apt-get install -qy nodejs && \
 	apt-get purge -qy lsb-release && \
 	apt-get -qy autoremove && \
