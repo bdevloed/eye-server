@@ -2,7 +2,7 @@
 FROM bdevloed/eye
 LABEL maintainer="https://github.com/bdevloed"
 
-# Install latest nodejs and EYEServer
+# Install nodejs and EYEServer
 RUN apt-get -qq update && \
 	`# Install dependencies:` \
 	apt-get -qqy --no-install-recommends install gnupg && \
