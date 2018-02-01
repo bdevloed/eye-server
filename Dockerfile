@@ -1,5 +1,5 @@
 # EYE Server image, based on EYE Server by Ruben Verborgh
-FROM bdevloed/eye
+FROM bdevloed/eye:legacy
 LABEL maintainer="https://github.com/bdevloed"
 
 # Install nodejs and EYEServer
